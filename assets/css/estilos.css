@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Titan+One&display=swap');
+
+*{margin: 0; padding: 5; background-color: #000000; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1 {color:  #ffffff ; font-size: 60px; font: xx-large; font-family: 'Titan One', cursive;}
+h2 { color: #7dbcda;}
+h4 { color: rgb(125, 192, 38);}
+p {color: #ccdfe0;}
+
+header img {
+    filter: grayscale(0%) contrast(120%) brightness(90%); /* Desaturar y ajustar el contraste y brillo */
+    transition: filter 0.3s; /* Agregar transición suave */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+    
+    header img:hover {
+        filter: grayscale(100%) contrast(100%) brightness(100%); /* Volver a la imagen original en el hover */
+    }
+
+
+
+#nota {color: #ffffff; margin-left: 100px; margin-right: 100px;}
+
+.articulo {
+    color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.articulo > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.articulo > div img {
+    width: 300px;
+    opacity: 0.8;
+    border-radius: 50px;
+    margin-right: 20px; /* Espacio entre la imagen y el párrafo */
+    
+}
+
+
+body>main>section>div>img:nth-child(1) {
+    width: 100px;
+    opacity: 0.8;
+    border-radius: 50px;
+}
+
+.bloc {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .bloc_bis {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.75s ease-in-out;
+    flex: 0.1;
+    border-radius: 2rem;
+  }
+  .bloc_bis:hover {
+    flex: 0.35;
+
+  }
+  .bloc_bis:not(:hover) {
+    opacity: 0.8;
+  }
+  .mural {
+    background-image: url("../images/amas.jpg");
+}
+.olaf {
+    background-image: url("../images/amas2.jpg");
+}
+.restauracion{
+    background-image: url("../images/amas3.jpeg");
+}
+.musico{
+    background-image: url("../images/amas4.jpg");
+}
